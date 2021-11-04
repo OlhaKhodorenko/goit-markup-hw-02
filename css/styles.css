@@ -15,7 +15,7 @@ body {
   --accent-color: #2196f3;
   --accent-text-color: #2196f3;
   --dark-background-color: #2f303a;
-  --light-background-color:#f5f4fa;
+  --light-background-color: #f5f4fa;
 }
 .list {
   list-style: none;
@@ -103,7 +103,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-}
+
 .team {
   background-color: var(--light-background-color);
 }
@@ -139,9 +139,10 @@ body {
   letter-spacing: 0.06em;
 }
 
-a.footer-link {
+.footer-link {
   color: rgba(255, 255, 255, 0.6);
 }
+
 /* portfolio styles*/
 
 .filters-button {
@@ -156,11 +157,11 @@ a.footer-link {
   cursor: pointer;
 }
 .filters-button:hover,
-.filters-button:focus{
+.filters-button:focus {
   color: var(--dark-bg-text-color);
   background-color: var(--accent-color);
 }
-.project-title{
+.project-title {
   color: var(--title-text-color);
   font-weight: 700;
   font-style: normal;
@@ -168,7 +169,7 @@ a.footer-link {
   line-height: 2;
   letter-spacing: 0.06em;
 }
-.filter-item{
+.filter-item {
   font-size: 16px;
   font-weight: 400;
   font-style: normal;
